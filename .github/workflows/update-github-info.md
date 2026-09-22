@@ -5,12 +5,13 @@ on:
 
 permissions:
   contents: read
+  "pull-requests": read
 
 engine: gemini
 
 tools:
   github:
-    toolsets: [repos]
+    toolsets: [repos, issues]
   web-fetch:
   edit:
 network:
@@ -19,7 +20,7 @@ network:
     - github.com
     - awesome-copilot.github.com
 safe-outputs:
-  create-issue:
+  create-pull-request:
 ---
 
 # Update GitHub Info
