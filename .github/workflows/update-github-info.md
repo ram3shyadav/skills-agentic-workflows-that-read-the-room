@@ -6,7 +6,7 @@ on:
 permissions:
   contents: read
 engine: copilot
-model: auto
+model: any
 strict: true
 tools:
   github:
