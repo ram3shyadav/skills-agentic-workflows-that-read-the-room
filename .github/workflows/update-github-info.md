@@ -6,7 +6,7 @@ on:
 permissions:
   contents: read
 engine: copilot
-model: any
+model: gpt-5.4
 strict: true
 tools:
   github:
