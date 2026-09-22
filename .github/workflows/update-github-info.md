@@ -2,11 +2,12 @@
 name: update-github-info
 on:
   schedule: daily
-  workflow_dispatch:
+
 permissions:
   contents: read
+
 engine: gemini
-strict: true
+
 tools:
   github:
     toolsets: [repos]
@@ -18,7 +19,7 @@ network:
     - github.com
     - awesome-copilot.github.com
 safe-outputs:
-  create-pull-request:
+  create-issue:
 ---
 
 # Update GitHub Info
