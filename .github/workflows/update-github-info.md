@@ -6,7 +6,7 @@ on:
 permissions:
   contents: read
 engine: copilot
-model: gpt-5.6-luna
+model: gpt-4o-mini
 strict: true
 tools:
   github:
